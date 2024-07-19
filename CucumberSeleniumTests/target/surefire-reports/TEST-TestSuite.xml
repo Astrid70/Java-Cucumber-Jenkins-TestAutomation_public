@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="7.316" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Spring\CucumberSeleniumTests\target\test-classes;C:\Spring\CucumberSeleniumTests\target\classes;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.22.0\selenium-java-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.22.0\selenium-api-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.22.0\selenium-chrome-driver-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.22.0\selenium-chromium-driver-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.22.0\selenium-json-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.22.0\selenium-manager-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.22.0\selenium-devtools-v124-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.22.0\selenium-devtools-v125-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.22.0\selenium-devtools-v126-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.22.0\selenium-devtools-v85-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.22.0\selenium-edge-driver-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.22.0\selenium-firefox-driver-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.22.0\selenium-http-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.22.0\selenium-ie-driver-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.22.0\selenium-remote-driver-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\AstridEnsin\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\AstridEnsin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\AstridEnsin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\AstridEnsin\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\AstridEnsin\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\AstridEnsin\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\AstridEnsin\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\AstridEnsin\.m2\repository\io\opentelemetry\opentelemetry-api\1.39.0\opentelemetry-api-1.39.0.jar;C:\Users\AstridEnsin\.m2\repository\io\opentelemetry\opentelemetry-context\1.39.0\opentelemetry-context-1.39.0.jar;C:\Users\AstridEnsin\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.39.0\opentelemetry-exporter-logging-1.39.0.jar;C:\Users\AstridEnsin\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.39.0\opentelemetry-sdk-common-1.39.0.jar;C:\Users\AstridEnsin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.39.0\opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar;C:\Users\AstridEnsin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.39.0\opentelemetry-sdk-extension-autoconfigure-1.39.0.jar;C:\Users\AstridEnsin\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.39.0-alpha\opentelemetry-api-incubator-1.39.0-alpha.jar;C:\Users\AstridEnsin\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.39.0\opentelemetry-sdk-trace-1.39.0.jar;C:\Users\AstridEnsin\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.39.0\opentelemetry-sdk-1.39.0.jar;C:\Users\AstridEnsin\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.39.0\opentelemetry-sdk-metrics-1.39.0.jar;C:\Users\AstridEnsin\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.39.0\opentelemetry-sdk-logs-1.39.0.jar;C:\Users\AstridEnsin\.m2\repository\net\bytebuddy\byte-buddy\1.14.17\byte-buddy-1.14.17.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-os\4.22.0\selenium-os-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.22.0\selenium-safari-driver-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.22.0\selenium-support-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\cucumber-java\7.18.0\cucumber-java-7.18.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\cucumber-core\7.18.0\cucumber-core-7.18.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\cucumber-gherkin\7.18.0\cucumber-gherkin-7.18.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.0\cucumber-gherkin-messages-7.18.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\datatable\7.18.0\datatable-7.18.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\cucumber-plugin\7.18.0\cucumber-plugin-7.18.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\docstring\7.18.0\docstring-7.18.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\AstridEnsin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\cucumber-testng\7.18.0\cucumber-testng-7.18.0.jar;C:\Users\AstridEnsin\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\AstridEnsin\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\AstridEnsin\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\AstridEnsin\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\AstridEnsin\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="dataproviderthreadcount" value="$(threadCount)"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="DE"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
+    <property name="sun.java.command" value="C:\Users\AstridEnsin\AppData\Local\Temp\surefire4885132417403472439\surefirebooter15901637499306059055.jar C:\Users\AstridEnsin\AppData\Local\Temp\surefire4885132417403472439 2024-07-19T16-00-29_071-jvmRun1 surefire3963104936427062509tmp surefire_01755945439901041266tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Spring\CucumberSeleniumTests\target\test-classes;C:\Spring\CucumberSeleniumTests\target\classes;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.22.0\selenium-java-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.22.0\selenium-api-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.22.0\selenium-chrome-driver-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.22.0\selenium-chromium-driver-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.22.0\selenium-json-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.22.0\selenium-manager-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.22.0\selenium-devtools-v124-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.22.0\selenium-devtools-v125-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.22.0\selenium-devtools-v126-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.22.0\selenium-devtools-v85-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.22.0\selenium-edge-driver-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.22.0\selenium-firefox-driver-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.22.0\selenium-http-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.22.0\selenium-ie-driver-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.22.0\selenium-remote-driver-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\AstridEnsin\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\AstridEnsin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\AstridEnsin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\AstridEnsin\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\AstridEnsin\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\AstridEnsin\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\AstridEnsin\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\AstridEnsin\.m2\repository\io\opentelemetry\opentelemetry-api\1.39.0\opentelemetry-api-1.39.0.jar;C:\Users\AstridEnsin\.m2\repository\io\opentelemetry\opentelemetry-context\1.39.0\opentelemetry-context-1.39.0.jar;C:\Users\AstridEnsin\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.39.0\opentelemetry-exporter-logging-1.39.0.jar;C:\Users\AstridEnsin\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.39.0\opentelemetry-sdk-common-1.39.0.jar;C:\Users\AstridEnsin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.39.0\opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar;C:\Users\AstridEnsin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.39.0\opentelemetry-sdk-extension-autoconfigure-1.39.0.jar;C:\Users\AstridEnsin\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.39.0-alpha\opentelemetry-api-incubator-1.39.0-alpha.jar;C:\Users\AstridEnsin\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.39.0\opentelemetry-sdk-trace-1.39.0.jar;C:\Users\AstridEnsin\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.39.0\opentelemetry-sdk-1.39.0.jar;C:\Users\AstridEnsin\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.39.0\opentelemetry-sdk-metrics-1.39.0.jar;C:\Users\AstridEnsin\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.39.0\opentelemetry-sdk-logs-1.39.0.jar;C:\Users\AstridEnsin\.m2\repository\net\bytebuddy\byte-buddy\1.14.17\byte-buddy-1.14.17.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-os\4.22.0\selenium-os-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.22.0\selenium-safari-driver-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.22.0\selenium-support-4.22.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\cucumber-java\7.18.0\cucumber-java-7.18.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\cucumber-core\7.18.0\cucumber-core-7.18.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\cucumber-gherkin\7.18.0\cucumber-gherkin-7.18.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.0\cucumber-gherkin-messages-7.18.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\datatable\7.18.0\datatable-7.18.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\cucumber-plugin\7.18.0\cucumber-plugin-7.18.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\docstring\7.18.0\docstring-7.18.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\AstridEnsin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\AstridEnsin\.m2\repository\io\cucumber\cucumber-testng\7.18.0\cucumber-testng-7.18.0.jar;C:\Users\AstridEnsin\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\AstridEnsin\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\AstridEnsin\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\AstridEnsin\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\AstridEnsin\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\AstridEnsin"/>
+    <property name="user.language" value="de"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-22"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Spring\CucumberSeleniumTests"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\AstridEnsin\AppData\Local\Temp\surefire4885132417403472439\surefirebooter15901637499306059055.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.1+8-16"/>
+    <property name="user.name" value="AstridEnsin"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\AstridEnsin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ASTRID~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="22.0.1"/>
+    <property name="cucumber.filter.tags" value="@regression and (not @ignore)"/>
+    <property name="user.dir" value="C:\Spring\CucumberSeleniumTests"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\AstridEnsin\maven\apache-maven-3.9.8/bin;C:\Program Files\Java\jdk-22/bin;C:\Program Files\Java\jdk-22/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\AstridEnsin\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="22.0.1+8-16"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Validate - Successful and Unsuccessful Login&quot;, &quot;Webdriver University - Login Page&quot;](1)" classname="runners.MainRunner" time="4.648">
+    <system-out><![CDATA[
+@login @regression @smoke
+Scenario Outline: Validate - Successful and Unsuccessful Login                             # features/Login.feature:19
+
+@contact-us @regression
+Scenario: Validate Successful Submission -Specific Data   # features/Contact_Us.feature:14
+
+@contact-us @regression
+Scenario: Validate Successful Submission -Unique Data     # features/Contact_Us.feature:5
+
+@login @regression @smoke
+Scenario Outline: Validate - Successful and Unsuccessful Login                                # features/Login.feature:18
+chrome
+chrome
+chrome
+chrome
+  Given I access the webdriver university login page                                       # stepDefinitions.Login_Steps.i_access_the_webdriver_university_login_page()
+  Given I access the webdriver university contact us page # stepDefinitions.Contact_Us_Steps.i_access_the_webdriver_university_contact_us_page()
+  Given I access the webdriver university contact us page # stepDefinitions.Contact_Us_Steps.i_access_the_webdriver_university_contact_us_page()
+  Given I access the webdriver university login page                                          # stepDefinitions.Login_Steps.i_access_the_webdriver_university_login_page()
+  When I enter a username joeblogs                                                         # stepDefinitions.Login_Steps.i_enter_a_username(java.lang.String)
+  When I enter a specific first name joe                  # stepDefinitions.Contact_Us_Steps.i_enter_a_specific_first_name_joe(java.lang.String)
+  When I enter a username webdriver                                                           # stepDefinitions.Login_Steps.i_enter_a_username(java.lang.String)
+  When I enter a unique first name                        # stepDefinitions.Contact_Us_Steps.i_enter_a_unique_first_name()
+  And I enter a password password1                                                         # stepDefinitions.Login_Steps.i_enter_a_password_webdriver123(java.lang.String)
+  And I enter specific last name blogs                    # stepDefinitions.Contact_Us_Steps.i_enter_specific_last_name_blogs(java.lang.String)
+  And I enter a password webdriver123                                                         # stepDefinitions.Login_Steps.i_enter_a_password_webdriver123(java.lang.String)
+  And I enter unique last name                            # stepDefinitions.Contact_Us_Steps.i_enter_unique_last_name()
+  And I click on the login button                                                          # stepDefinitions.Login_Steps.i_click_on_the_login_button()
+  Then I should be presented with the following login validation message validation failed # stepDefinitions.Login_Steps.i_should_be_presented_with_the_following_login_validation_message_validation_succeeded(java.lang.String)
+  And I click on the login button                                                             # stepDefinitions.Login_Steps.i_click_on_the_login_button()
+  Then I should be presented with the following login validation message validation succeeded # stepDefinitions.Login_Steps.i_should_be_presented_with_the_following_login_validation_message_validation_succeeded(java.lang.String)
+  And I enter a specific email joe_blog@mail.com          # stepDefinitions.Contact_Us_Steps.i_enter_a_specific_email_joe_blog_mail_com(java.lang.String)
+  And I enter a unique email                              # stepDefinitions.Contact_Us_Steps.i_enter_a_unique_email()
+  And I enter a specific comment  "How are you?"          # stepDefinitions.Contact_Us_Steps.i_enter_a_specific_comment(java.lang.String)
+  And I enter a comment                                   # stepDefinitions.Contact_Us_Steps.i_enter_a_comment()
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Parsing System property 'dataproviderthreadcount': java.lang.NumberFormatException: For input string: "$(threadCount)"
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate - Successful and Unsuccessful Login&quot;, &quot;Webdriver University - Login Page&quot;](2)" classname="runners.MainRunner" time="0.058">
+    <system-out><![CDATA[
+@login @regression @smoke
+Scenario Outline: Validate - Successful and Unsuccessful Login                             # features/Login.feature:20
+chrome
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate Successful Submission -Specific Data&quot;, &quot;WebDriver University - Contact Us page&quot;](3)" classname="runners.MainRunner" time="0.432">
+    <system-out><![CDATA[  And I click on the submit button                        # stepDefinitions.Contact_Us_Steps.i_click_on_the_submit_button()
+  Then I should get a the successful contact us message   # stepDefinitions.Contact_Us_Steps.i_should_get_a_the_successful_contact_us_message()
+  And I click on the submit button                        # stepDefinitions.Contact_Us_Steps.i_click_on_the_submit_button()
+  Then I should get a the successful contact us message   # stepDefinitions.Contact_Us_Steps.i_should_get_a_the_successful_contact_us_message()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate Successful Submission -Unique Data&quot;, &quot;WebDriver University - Contact Us page&quot;](4)" classname="runners.MainRunner" time="0.525"/>
+  <testcase name="runScenario[&quot;Validate - Successful and Unsuccessful Login&quot;, &quot;Webdriver University - Login Page&quot;](5)" classname="runners.MainRunner" time="1.771">
+    <system-out><![CDATA[  Given I access the webdriver university login page                                       # stepDefinitions.Login_Steps.i_access_the_webdriver_university_login_page()
+  When I enter a username webdriver                                                        # stepDefinitions.Login_Steps.i_enter_a_username(java.lang.String)
+  And I enter a password webdriver187                                                      # stepDefinitions.Login_Steps.i_enter_a_password_webdriver123(java.lang.String)
+  And I click on the login button                                                          # stepDefinitions.Login_Steps.i_click_on_the_login_button()
+  Then I should be presented with the following login validation message validation failed # stepDefinitions.Login_Steps.i_should_be_presented_with_the_following_login_validation_message_validation_succeeded(java.lang.String)
+]]></system-out>
+  </testcase>
+</testsuite>
